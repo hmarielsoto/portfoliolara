@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 100%; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 90%; } }
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 50%; } }
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 50%; } }
+
+body {
+  background-image: url(../img/fondolara.jpg);
+  background-color: black; }
+
+h1 {
+  font-family: 'VT323', monospace;
+  color: #f7f7f7;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #322E31;
+  margin: 15px;
+  animation-name: aparecer;
+  animation-duration: 5s; }
+
+h2 {
+  font-family: 'VT323', monospace;
+  color: #f7f7f7;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 9px; }
+
+h3 {
+  font-family: 'VT323', monospace;
+  color: #f7f7f7;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #322E31;
+  font-size: 2rem;
+  padding: 3px; }
+
+@keyframes aparecer {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  margin: 15px; }
+
+.infoLara ul li, .infopilar ul li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  margin: 5px;
+  list-style: none; }
+
+.infoLara p, .infopilar p {
+  text-align: center; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #eedbf5; }
+
+.nav-item {
+  font-family: 'VT323', monospace;
+  font-size: 3rem; }
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.navbar-light .navbar-toggler {
+  color: #eedbf5; }
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #eedbf5; }
+
+.explicacion2 {
+  margin: 20px;
+  padding: 10px;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px #322E31; }
+
+.explicacion3 {
+  margin: 20px;
+  padding: 10px;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px #322E31; }
+
+.fotoindex {
+  margin: 20px;
+  padding: 10px;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px #322E31; }
+
+.infoindex {
+  margin: 20px;
+  padding: 10px;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px #322E31; }
+
+label {
+  font-family: "VT323", monospace;
+  font-size: 2.5rem; }
+
+option {
+  font-family: "VT323", monospace;
+  font-size: 2.5rem; }
+
+button {
+  font-family: "VT323", monospace;
+  font-size: 4rem; }
+
+.btn-primary {
+  background-color: #322E31;
+  border-color: #322E31; }
+
+.btn-primary:hover {
+  color: #322E31;
+  background-color: #f7f7f7;
+  border-color: #f7f7f7; }
+
+.foto {
+  margin: 10px; }
+
+fieldset {
+  margin: 10px;
+  padding: 5px;
+  background-color: #CCB9C1;
+  color: darkslategrey;
+  box-shadow: 10px 10px grey; }
+
+.fotolara {
+  margin: 10px;
+  padding: 10px;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px grey; }
+
+.fotocv {
+  margin-top: 30px; }
+
+.infoLara, .infopilar {
+  color: #322E31;
+  background-color: #CCB9C1;
+  box-shadow: 10px 10px #322E31;
+  padding: 10px; }
+
+.infopilar {
+  padding: 5px;
+  margin-top: 10px;
+  width: 710px; }
+
+.logo {
+  margin: 15px;
+  animation-name: nombre;
+  animation-duration: 5s; }
+
+@keyframes nombre {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+footer {
+  background-color: #322E31;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px; }
+
+footer p {
+  color: #ffffff;
+  font-family: "VT323", monospace; }
+
+.fotogaleria {
+  margin: 10px; }
