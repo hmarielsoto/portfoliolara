@@ -132,10 +132,11 @@
 //finmenu
 
 .explicacion2 {
-    @include bloques}
+  @include bloques}
   
-  .explicacion3 {
-    @include bloques}
+.explicacion3 {
+  @include bloques;
+  padding:15px;}
 
 .fotoindex{
   @include bloques
@@ -159,6 +160,14 @@
     font-size: 4rem;
   }
 
+  .form-control{
+    padding:1,5rem;
+  }
+
+  .btn{
+    font-size: 2rem;
+  }
+
   .btn-primary{
     background-color: $gris;
     border-color: $gris;
@@ -170,7 +179,15 @@
     border-color: $blanco;
   }
 
+  #exampleFormControlSelect1{
+    font-size: 2rem;
+    font-family: $arcade;
+  }
 
+img{
+
+  object-fit: cover;
+}
   .foto {
     margin: 10px; }
   
@@ -194,13 +211,31 @@
     color: #322E31;
     background-color: #CCB9C1;
     box-shadow: 10px 10px #322E31;
-    padding: 10px; }
+    padding: 10px;
+     }
+
+  .infoLarados{
+    @extend .infoLara;
+    text-align: center;
+  }  
+  
+  .infoLarados{
+    a{
+      @include titulos;
+    }
+  }
+
+  .infoLarados {
+    a:hover{
+      text-decoration: none;
+      color:$gris;
+    }
+  }
 
   .infopilar{
     @extend .infoLara;
     padding: 5px; 
     margin-top: 10px;
-    width: 710px;
     }
   
   .logo {
@@ -231,3 +266,24 @@
 .fotogaleria{
     margin:10px;
 }
+
+.descripcionfoto{
+  display: none;
+  position: absolute;
+  background-color: $gris;
+  font-family: $arcade;
+  color: $blanco;
+  font-size: 3rem;
+  text-align: center;
+  object-fit: scale-down;
+}
+
+.fotogaleria:hover{
+ opacity: 0.5;
+
+}
+.fotogaleria:hover .descripcionfoto{
+display: block;
+
+}
+

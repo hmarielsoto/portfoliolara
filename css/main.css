@@ -67,13 +67,13 @@ p {
   font-size: 2rem;
   margin: 15px; }
 
-.infoLara ul li, .infopilar ul li {
+.infoLara ul li, .infoLarados ul li, .infopilar ul li {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   margin: 5px;
   list-style: none; }
 
-.infoLara p, .infopilar p {
+.infoLara p, .infoLarados p, .infopilar p {
   text-align: center; }
 
 .navbar-light .navbar-nav .nav-link {
@@ -103,7 +103,8 @@ p {
   margin: 20px;
   padding: 10px;
   background-color: #CCB9C1;
-  box-shadow: 10px 10px #322E31; }
+  box-shadow: 10px 10px #322E31;
+  padding: 15px; }
 
 .fotoindex {
   margin: 20px;
@@ -129,6 +130,12 @@ button {
   font-family: "VT323", monospace;
   font-size: 4rem; }
 
+.form-control {
+  padding: 1,5rem; }
+
+.btn {
+  font-size: 2rem; }
+
 .btn-primary {
   background-color: #322E31;
   border-color: #322E31; }
@@ -137,6 +144,13 @@ button {
   color: #322E31;
   background-color: #f7f7f7;
   border-color: #f7f7f7; }
+
+#exampleFormControlSelect1 {
+  font-size: 2rem;
+  font-family: "VT323", monospace; }
+
+img {
+  object-fit: cover; }
 
 .foto {
   margin: 10px; }
@@ -157,16 +171,29 @@ fieldset {
 .fotocv {
   margin-top: 30px; }
 
-.infoLara, .infopilar {
+.infoLara, .infoLarados, .infopilar {
   color: #322E31;
   background-color: #CCB9C1;
   box-shadow: 10px 10px #322E31;
   padding: 10px; }
 
+.infoLarados {
+  text-align: center; }
+
+.infoLarados a {
+  font-family: 'VT323', monospace;
+  color: #f7f7f7;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.infoLarados a:hover {
+  text-decoration: none;
+  color: #322E31; }
+
 .infopilar {
   padding: 5px;
-  margin-top: 10px;
-  width: 710px; }
+  margin-top: 10px; }
 
 .logo {
   margin: 15px;
@@ -191,3 +218,19 @@ footer p {
 
 .fotogaleria {
   margin: 10px; }
+
+.descripcionfoto {
+  display: none;
+  position: absolute;
+  background-color: #322E31;
+  font-family: "VT323", monospace;
+  color: #f7f7f7;
+  font-size: 3rem;
+  text-align: center;
+  object-fit: scale-down; }
+
+.fotogaleria:hover {
+  opacity: 0.5; }
+
+.fotogaleria:hover .descripcionfoto {
+  display: block; }
