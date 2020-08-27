@@ -130,9 +130,6 @@ button {
   font-family: "VT323", monospace;
   font-size: 4rem; }
 
-.form-control {
-  padding: 1,5rem; }
-
 .btn {
   font-size: 2rem; }
 
@@ -146,7 +143,7 @@ button {
   border-color: #f7f7f7; }
 
 #exampleFormControlSelect1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "VT323", monospace; }
 
 img {
